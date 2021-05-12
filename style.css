@@ -25,7 +25,7 @@
   float: flex;
 }
 .buttonSubmit {
-  background-color: #8400ff77;
+  background-color: #0011ff77;
   color: white;
   padding: 4px 2px;
   text-align: center;
@@ -83,7 +83,7 @@ div.fadeIn {
   padding: 2px;
   cursor: move;
   z-index: 10;
-  background-color: #0c81ee;
+  background-color: #14385c9f;
   color: #fff;
 }
 .cardinpt {

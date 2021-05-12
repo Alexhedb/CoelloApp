@@ -99,7 +99,7 @@ const startApp = () => {
             document.querySelector('.ImageList').appendChild(div)
           }
         }
-        if(images.length==j){
+        if(images.length==j && images.length>0){
           console.log(images.length)
           inpt.setAttribute('value', 24)
         }
