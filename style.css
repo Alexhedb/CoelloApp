@@ -1,0 +1,93 @@
+.buttonCards {
+  background-color: #ff000077;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 9px;
+  margin: 10px 1px 1px 0px;
+  cursor: pointer;
+
+  float: flex;
+}
+.buttonCardsRm {
+  background-color: #0400ff77;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 9px;
+  margin: 10px 1px 1px 0px;
+  cursor: pointer;
+
+  float: flex;
+}
+.buttonSubmit {
+  background-color: #8400ff77;
+  color: white;
+  padding: 4px 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 9px;
+
+  cursor: pointer;
+
+  float: flex;
+}
+.imgbutton {
+  padding-left: 30px;
+}
+
+img {
+  width: 100%;
+}
+.zoom {
+  transition: transform 2s; /* Animation */
+  transition-delay: 1.5s;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.15
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.test {
+  padding: 15px 55px;
+}
+div.fadeOut {
+  opacity: 0;
+  pointer-events: none;
+}
+
+div.fadeIn {
+  opacity: 1;
+  pointer-events: all;
+}
+.wheel {
+  display: none;
+}
+.ImageList {
+  display: none;
+}
+.mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #ad9b9b;
+  width: 10px;
+  height: 0px;
+}
+
+.mydivheader {
+  padding: 2px;
+  cursor: move;
+  z-index: 10;
+  background-color: #0c81ee;
+  color: #fff;
+}
+.cardinpt {
+  width: 25px;
+  height: 20px;
+  background-color: #b49eaf;
+}
